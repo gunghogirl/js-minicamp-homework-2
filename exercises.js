@@ -103,16 +103,21 @@ function returnFirst(arr) {
 
 function returnLast(arr) {
   //return the last item of the array
+  return arr[arr.length - 1];
 }
 
 function getArrayLength(arr) {
   //return the length of the array
+  return arr.length;
 }
 
 function incrementByOne(arr) {
   //arr is an array of integers
   //increase each integer by one
   //return the array
+  for (var i = 0; i < arr.length; i++) {
+    return arr[i++];
+  }
 }
 
 function addItemToArray(arr, item) {
